@@ -1,0 +1,61 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=1in]{geometry} % 设置边距，符合Word设定
+\usepackage{ctex}
+\usepackage{lipsum}
+\title{\heiti\zihao{3} Report One}
+\author{\songti 崔航}
+\date{2023.09.30}
+\begin{document}
+    \maketitle
+\begin{abstract}
+    \lipsum[2]
+\end{abstract}
+\tableofcontents
+\section{Mille-Rabin方法}
+\subsection{费马小定理}
+当$p$为素数时，对于任意整数$a$，有$a^p\equiv a\pmod p$。
+即$a^{p-1}\equiv 1\pmod p$。
+\subsubsection{算法描述}
+\begin{enumerate}
+    \item 选取一个整数$a$，使得$1<a<n$。
+    \item 计算$a^{n-1}\pmod n$。
+    \item 若$a^{n-1}\not\equiv 1\pmod n$，则$n$为合数；否则，$n$可能为素数。
+    \item 重复步骤1-3，$k$次后，若$n$为合数，则$n$为合数；否则，$n$可能为素数。
+\end{enumerate}
+\subsubsection{证明}
+\begin{enumerate}
+    \item 若$n$为素数，由费马小定理可知，$a^{n-1}\equiv 1\pmod n$。
+    \item 若$n$为合数，由费马小定理可知，$a^{n-1}\equiv 1\pmod n$。
+
+\end{enumerate}
+\subsection{算法实现}
+\subsubsection{python实现}
+\begin{verbatim}
+    def miller_rabin(n, k):
+        if n == 2:
+            return True
+        if n % 2 == 0:
+            return False
+        s = 0
+        d = n - 1
+        while d % 2 == 0:
+            s += 1
+            d //= 2
+        for i in range(k):
+            a = random.randint(2, n - 1)
+            x = pow(a, d, n)
+            if x == 1 or x == n - 1:
+                continue
+            for j in range(s - 1):
+                x = pow(x, 2, n)
+                if x == 1:
+                    return False
+                if x == n - 1:
+                    break
+            else:
+                return False
+        return True
+\end{verbatim}
+\section{}
+
+\end{document}
