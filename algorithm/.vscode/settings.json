@@ -3,5 +3,9 @@
         "editor.defaultFormatter": "ms-python.python"
     },
     "python.formatting.provider": "none",
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "files.associations": {
+        "*.py": "python",
+        "cstdio": "cpp"
+    }
 }

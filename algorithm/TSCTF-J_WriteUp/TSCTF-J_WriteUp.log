@@ -1,0 +1,573 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4 Portable) (preloaded format=pdflatex 2023.9.18)  25 SEP 2023 09:44
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**d:/VScode/git/library/library/algorithm/TSCTF-J_WriteUp/TSCTF-J_WriteUp.tex
+(d:/VScode/git/library/library/algorithm/TSCTF-J_WriteUp/TSCTF-J_WriteUp.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-03-30>
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/geometry\geometry.
+sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics\keyval.st
+y
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks17
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/geometry\geometry.
+cfg))
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics\graphicx.
+sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics\graphics.
+sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics-cfg\graph
+ics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics-def\pdfte
+x.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/subfigure\subfigur
+e.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip50
+\subfigcapskip=\skip51
+\subfigcaptopadj=\dimen151
+\subfigbottomskip=\skip52
+\subfigcapmargin=\dimen152
+\subfiglabelskip=\skip53
+\c@subfigure=\count196
+\c@lofdepth=\count197
+\c@subtable=\count198
+\c@lotdepth=\count199
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/subfigure\subfigur
+e.cfg)
+\subfig@top=\skip54
+\subfig@bottom=\skip55
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex\ctex.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-03-30 L3 programming layer (loader) 
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/l3backend\l3backen
+d-pdftex.def
+File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count266
+\l__pdf_internal_box=\box51
+))
+Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex\ctexhook.sty
+Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex\ctexpatch.sty
+Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\l__ctex_tmp_int=\count267
+\l__ctex_tmp_box=\box52
+\l__ctex_tmp_dim=\dimen153
+\g__ctex_section_depth_int=\count268
+\g__ctex_font_size_int=\count269
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/config\ctexop
+ts.cfg
+File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
+)
+
+Package ctex Warning: UTF8 will be used as the default encoding.
+
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/engine\ctex-e
+ngine-pdftex.def
+File: ctex-engine-pdftex.def 2022/07/14 v2.5.10 (pdf)LaTeX adapter (CTEX)
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk\CJKutf8.sty
+Package: CJKutf8 2021/10/16 4.8.5
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\inputenc.st
+y
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk\CJK.sty
+Package: CJK 2021/10/16 4.8.5
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk/mule\MULEenc.s
+ty
+Package: MULEenc 2021/10/16 4.8.5
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk\CJK.enc
+File: CJK.enc 2021/10/16 4.8.5
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+\CJK@indent=\box53
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+))
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjkpunct\CJKpunct.
+sty
+Package: CJKpunct 2016/05/14 4.8.4
+\CJKpunct@cnta=\count270
+\CJKpunct@cntb=\count271
+\CJKpunct@cntc=\count272
+\CJKpunct@cntd=\count273
+\CJKpunct@cnte=\count274
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2026 (decimal 8230)
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjkpunct\CJKpunct.
+spa))
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk\CJKspace.sty
+Package: CJKspace 2021/10/16 3.8.0
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk/UTF8\UTF8.bdg
+File: UTF8.bdg 2021/10/16 4.8.5
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex\ctexspa.def
+File: ctexspa.def 2022/07/14 v2.5.10 Space info for CJKpunct (CTEX)
+)
+\ccwd=\dimen154
+\l__ctex_ccglue_skip=\skip56
+)
+\l__ctex_ziju_dim=\dimen155
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/zhnumber\zhnumber.
+sty
+Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count275
+\l__zhnum_tmp_int=\count276
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/zhnumber\zhnumber-
+utf8.cfg
+File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
+))
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/scheme\ctex-s
+cheme-chinese.def
+File: ctex-scheme-chinese.def 2022/07/14 v2.5.10 Chinese scheme for generic (CT
+EX)
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/config\ctex-n
+ame-utf8.cfg
+File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
+))
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/tools\indentfirst.
+sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex\ctex-c5size.c
+lo
+File: ctex-c5size.clo 2022/07/14 v2.5.10 c5size option (CTEX)
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/fontset\ctex-
+fontset-windows.def
+File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTE
+X)
+))
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/config\ctex.c
+fg
+File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count277
+\float@exts=\toks20
+\float@box=\box54
+\@float@everytoks=\toks21
+\@floatcapt=\box55
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/emoji\emoji.sty
+Package: emoji 2021/07/17 v0.2.2 Emoji support in (Lua)LaTeX
+
+
+D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/emoji\emoji.sty:24:
+ Critical Package emoji Error: The 'emoji' package requires LuaTeX.
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.24 ...critical:nn { emoji } { require-luatex } }
+                                                  
+
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+Reading the current file 'emoji' will stop.
+
+
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk/UTF8\UTF8.enc
+File: UTF8.enc 2021/10/16 4.8.5
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk/UTF8\UTF8.ch
+r
+File: UTF8.chr 2021/10/16 4.8.5
+) (TSCTF-J_WriteUp.aux)
+\openout1 = `TSCTF-J_WriteUp.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/context/base/mkii\supp-p
+df.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count278
+\scratchdimen=\dimen156
+\scratchbox=\box56
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count281
+\MPscratchDim=\dimen157
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks23
+)
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/epstopdf-pkg\epsto
+pdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/00miktex\epstopdf-
+sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12.045> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 13.
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 14
+.
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/fd\c70rm.fd
+File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
+)
+(TSCTF-J_WriteUp.toc)
+\tf@toc=\write3
+\openout3 = `TSCTF-J_WriteUp.toc'.
+
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
+quanjiao) on input line 17.
+
+d:/VScode/git/library/library/algorithm/TSCTF-J_WriteUp/TSCTF-J_WriteUp.tex:21:
+ Undefined control sequence.
+l.21     \subfigur
+                  {\includegraphics[width=0.8\textwidth]{img/zundujiadu_01.p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<img/zundujiadu_01.png, id=34, 543.2295pt x 207.174pt>
+File: img/zundujiadu_01.png Graphic file (type png)
+<use img/zundujiadu_01.png>
+Package pdftex.def Info: img/zundujiadu_01.png  used on input line 21.
+(pdftex.def)             Requested size: 362.37569pt x 138.20206pt.
+d:/VScode/git/library/library/algorithm/TSCTF-J_WriteUp/TSCTF-J_WriteUp.tex:22:
+ Undefined control sequence.
+l.22     \subfigur
+                  {\includegraphics[width=0.8\textwidth]{img/zundujiadu_02.p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<img/zundujiadu_02.png, id=36, 556.479pt x 269.20575pt>
+File: img/zundujiadu_02.png Graphic file (type png)
+<use img/zundujiadu_02.png>
+Package pdftex.def Info: img/zundujiadu_02.png  used on input line 22.
+(pdftex.def)             Requested size: 362.37569pt x 175.30617pt.
+
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/generic/ctex/zhmap\ctex-
+zhmap-windows.tex
+File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
+TeX and DVIPDFMx (CTEX)
+{D:/Scoop/scoop/apps/miktex/current/texmfs/data/fonts/map/pdftex/pdftex.map}{UG
+BK.sfd}{Unicode.sfd}) [1
+
+] [2 <./img/zundujiadu_01.png> <./img/zundujiadu_02.png>] (TSCTF-J_WriteUp.aux)
+ ) 
+Here is how much of TeX's memory you used:
+ 6041 strings out of 476331
+ 115296 string characters out of 5785387
+ 1857660 words of memory out of 5000000
+ 26225 multiletter control sequences out of 15000+600000
+ 535823 words of font info for 114 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 78i,7n,80p,774b,350s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/s
+imsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows
+/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:
+/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun
+.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Font
+s/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/wind
+ows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc>
+<C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/sim
+sun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/F
+onts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/w
+indows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.t
+tc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/
+simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/window
+s/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C
+:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhe
+i.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fon
+ts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/win
+dows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf
+><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><D:/Scoop/scoop/apps
+/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Sc
+oop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on TSCTF-J_WriteUp.pdf (2 pages, 312601 bytes).
+PDF statistics:
+ 284 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+

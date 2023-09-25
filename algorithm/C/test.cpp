@@ -1,65 +1,61 @@
 #include<iostream>
 #include<cstdio>
 #include<cstring>
+#include<math.h>
+#include<stdlib.h>
 #include<algorithm>
 using namespace std;
-
-const int maxn=100;
-int n,K;
-string s;
-int a[maxn];
-struct lxt
-{
-    int len;
-    int ans[maxn];
-}dp[maxn/10][maxn];
-
-lxt cal(lxt x,int l,int r)
-{
-    lxt Ans,y;
-    memset(Ans.ans,0,sizeof(Ans.ans));
-    memset(y.ans,0,sizeof(y.ans));
-    y.len=r-l+1;
-    for(int i=r;i>=l;--i) y.ans[r-i+1]=a[i];
-    int l1=x.len,l2=y.len,ll;
-    for(int i=1;i<=l1;++i)
-      for(int j=1;j<=l2;++j)
-          Ans.ans[i+j-1]+=x.ans[i]*y.ans[j];
-    ll=l1+l2-1;      
-    for(int i=1;i<=ll;++i)
-    {
-        Ans.ans[i+1]+=Ans.ans[i]/10;
-        Ans.ans[i]=Ans.ans[i]%10;
+typedef long long ll;
+int main(){
+  ll a,b;
+  for(a=1;a*a<=1000000000;a++){
+    b=sqrt(1000000000-a*a);
+    if(floor(b)==b){
+      printf("%lld %lld\n",a,b);
     }
-    if(Ans.ans[ll+1]) ll++;
-    Ans.len=ll;
-    return Ans;
+  }
+  return 0;
 }
-lxt cmp(lxt x,lxt y)
-{
-    int lx=x.len,ly=y.len;
-    if(lx<ly) return y;
-    if(lx>ly) return x;
-    for(int i=lx;i>=1;--i)
-    {
-        if(x.ans[i]>y.ans[i]) return x;
-        if(x.ans[i]<y.ans[i]) return y;
-    }
-    return x; 
-}
-int main()
-{
-    scanf("%d%d",&n,&K);
-    cin>>s;
-    for(int i=1;i<=n;++i) a[i]=s[i-1]-'0';
-    for(int i=1;i<=n;++i)
-      for(int j=i;j>=1;--j)
-        dp[0][i].ans[++dp[0][i].len]=a[j];
-    for(int i=2;i<=n;++i)
-      for(int k=1;k<=min(K,i-1);++k)
-        for(int j=k;j<i;++j)
-          dp[k][i]=cmp(dp[k][i],cal(dp[k-1][j],j+1,i));
-    for(int i=dp[K][n].len;i>=1;--i)
-      printf("%d",dp[K][n].ans[i]);
-    return 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int key[40]={0xAE, 0x7C, 0xA9, 0xC, 0x13, 0x9C, 0x97, 0x97, 0xB2, 0x3C, 0x7D, 0xCD, 0x93, 0x53, 0x48, 0x7D, 0x94, 0x59, 0x5F,0xFC, 0xA, 0x5A, 0x6F, 0xD3, 0xAB, 0x49, 0x6E, 0xB5, 0xAC, 0x96, 0xDA, 0xB4, 0x26, 2, 0x42, 0xB4, 0xBE, 0xB3, 8, 0x1F};
+// int ans[40]={0xA9, 0xFB, 0xC8, 0x6F, 0x55, 0x95, 0x85, 0x85, 0xA7, 0x2D, 0xE3, 0xCE, 0xCD, 7, 0x35, 0xE8, 0xD2, 9, 0x5C, 0x16C, 0x72, 0, 0xAD, 0x92, 0xD6, 0x2E, 0xE4, 0xA9, 0xDB, 0x84, 0xDF, 0xF2, 0xD, 0x24, 0x62, 0xF5, 0xFF, 0xAE, 0x6F, 0x5F};
+// int flag[40]={0};
+// int main(){
+//   for(int i=0;i<40;i++){
+//     flag[i]=(key[i]+19)^ans[i];
+//     printf("%c",flag[i]);
+//   }
+//   for(int i=0;i<40;i++){
+//     printf("%c",key[i]);
+//   }
+//   for(int i=0;i<40;i++){
+//     printf("%c",ans[i]);
+//   }
+//   return 0;
+// }

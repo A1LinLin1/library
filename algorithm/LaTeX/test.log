@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4 Portable) (preloaded format=pdflatex 2023.9.16)  16 SEP 2023 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4 Portable) (preloaded format=pdflatex 2023.9.18)  20 SEP 2023 21:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,9 +7,9 @@ entering extended mode
 (d:/VScode/git/library/library/algorithm/LaTeX/test.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30>
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/base\article.cls
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/base\size10.clo
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\size10.clo
 File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -24,18 +24,18 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/geometry\geometry.s
-ty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/geometry\geometry.
+sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/graphics\keyval.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/graphics\keyval.st
+y
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/generic/iftex\ifvtex.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/generic/iftex\iftex.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count193
@@ -51,28 +51,29 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen148
 \Gm@dimlist=\toks17
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/geometry\geometry.c
-fg)) (D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex\ctex.sty
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/l3kernel\expl3.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/geometry\geometry.
+cfg))
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex\ctex.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/l3kernel\expl3.sty
 Package: expl3 2023-03-30 L3 programming layer (loader) 
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/l3backend\l3backend
--pdftex.def
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/l3backend\l3backen
+d-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count196
 \l__pdf_internal_box=\box51
 ))
 Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex\ctexhook.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex\ctexhook.sty
 Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
 )
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex\ctexpatch.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex\ctexpatch.sty
 Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
-) (D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/base\fix-cm.sty
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/base\ts1enc.def
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
@@ -82,36 +83,35 @@ LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 \g__ctex_section_depth_int=\count198
 \g__ctex_font_size_int=\count199
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex/config\ctexopt
-s.cfg
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/config\ctexop
+ts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
 )
 
 Package ctex Warning: UTF8 will be used as the default encoding.
 
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex/engine\ctex-en
-gine-pdftex.def
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/engine\ctex-e
+ngine-pdftex.def
 File: ctex-engine-pdftex.def 2022/07/14 v2.5.10 (pdf)LaTeX adapter (CTEX)
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/cjk\CJKutf8.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk\CJKutf8.sty
 Package: CJKutf8 2021/10/16 4.8.5
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/generic/iftex\ifpdf.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-)
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/base\inputenc.sty
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\inputenc.st
+y
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
-)
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/cjk\CJK.sty
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk\CJK.sty
 Package: CJK 2021/10/16 4.8.5
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/cjk/mule\MULEenc.st
-y
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk/mule\MULEenc.s
+ty
 Package: MULEenc 2021/10/16 4.8.5
-) (D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/cjk\CJK.enc
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk\CJK.enc
 File: CJK.enc 2021/10/16 4.8.5
 Now handling font encoding C00 ...
 ... no UTF-8 mapping file for font encoding C00
@@ -180,11 +180,11 @@ Now handling font encoding C62 ...
 )
 \CJK@indent=\box53
 )
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/base\fontenc.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ))
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/cjkpunct\CJKpunct.s
-ty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjkpunct\CJKpunct.
+sty
 Package: CJKpunct 2016/05/14 4.8.4
 \CJKpunct@cnta=\count266
 \CJKpunct@cntb=\count267
@@ -198,15 +198,14 @@ Package: CJKpunct 2016/05/14 4.8.4
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2026 (decimal 8230)
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/cjkpunct\CJKpunct.s
-pa))
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/cjk\CJKspace.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjkpunct\CJKpunct.
+spa))
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk\CJKspace.sty
 Package: CJKspace 2021/10/16 3.8.0
 )
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/cjk/UTF8\UTF8.bdg
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk/UTF8\UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
-)
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex\ctexspa.def
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex\ctexspa.def
 File: ctexspa.def 2022/07/14 v2.5.10 Space info for CJKpunct (CTEX)
 )
 \ccwd=\dimen150
@@ -214,45 +213,45 @@ File: ctexspa.def 2022/07/14 v2.5.10 Space info for CJKpunct (CTEX)
 )
 \l__ctex_ziju_dim=\dimen151
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/zhnumber\zhnumber.s
-ty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/zhnumber\zhnumber.
+sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
 \l__zhnum_scale_int=\count271
 \l__zhnum_tmp_int=\count272
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/zhnumber\zhnumber-u
-tf8.cfg
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/zhnumber\zhnumber-
+utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
 ))
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex/scheme\ctex-sc
-heme-chinese.def
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/scheme\ctex-s
+cheme-chinese.def
 File: ctex-scheme-chinese.def 2022/07/14 v2.5.10 Chinese scheme for generic (CT
 EX)
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex/config\ctex-na
-me-utf8.cfg
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/config\ctex-n
+ame-utf8.cfg
 File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
 ))
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/tools\indentfirst.s
-ty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/tools\indentfirst.
+sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex\ctex-c5size.cl
-o
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex\ctex-c5size.c
+lo
 File: ctex-c5size.clo 2022/07/14 v2.5.10 c5size option (CTEX)
 )
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex/fontset\ctex-f
-ontset-windows.def
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/fontset\ctex-
+fontset-windows.def
 File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTE
 X)
 ))
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex/config\ctex.cf
-g
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/config\ctex.c
+fg
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
 )
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/lipsum\lipsum.sty
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/l3packages/l3keys2e
-\l3keys2e.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/lipsum\lipsum.sty
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/l3packages/l3keys2
+e\l3keys2e.sty
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
@@ -260,15 +259,14 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_a_int=\count274
 \l__lipsum_b_int=\count275
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/lipsum\lipsum.ltd.t
-ex))
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/cjk/UTF8\UTF8.enc
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/lipsum\lipsum.ltd.
+tex))
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk/UTF8\UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
-)
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/cjk/UTF8\UTF8.chr
+) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk/UTF8\UTF8.ch
+r
 File: UTF8.chr 2021/10/16 4.8.5
-)
-(test.aux)
+) (test.aux)
 \openout1 = `test.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -393,81 +391,87 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for C70+zhsong on input lin
 e 9.
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/zhmetrics\c70zhsong
-.fd
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/zhmetrics\c70zhson
+g.fd
 File: c70zhsong.fd 2009/09/23 4.8.2
 )
 LaTeX Font Info:    Trying to load font information for C70+rm on input line 10
 .
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/latex/ctex/fd\c70rm.fd
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/ctex/fd\c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
 (test.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.53937> on input line 2.
+(Font)              <10.53937> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
+(Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
+(Font)              <5> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `test.toc'.
 
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
-quanjiao) on input line 16.
+quanjiao) on input line 15.
 
-(D:\Scoop\scoop\apps\latex\current\texmfs\install\tex/generic/ctex/zhmap\ctex-z
-hmap-windows.tex
+(D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/generic/ctex/zhmap\ctex-
+zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
 TeX and DVIPDFMx (CTEX)
-{D:/Scoop/scoop/apps/latex/current/texmfs/data/fonts/map/pdftex/pdftex.map}{UGB
-K.sfd}{Unicode.sfd}) [1
+{D:/Scoop/scoop/apps/miktex/current/texmfs/data/fonts/map/pdftex/pdftex.map}{UG
+BK.sfd}{Unicode.sfd}) [1
 
-] [2] (test.aux) ) 
+] [2] [3] [4] (test.aux) ) 
 Here is how much of TeX's memory you used:
- 5384 strings out of 476331
- 107875 string characters out of 5785859
- 1867660 words of memory out of 5000000
- 25603 multiletter control sequences out of 15000+600000
- 535872 words of font info for 114 fonts, out of 8000000 for 9000
+ 5463 strings out of 476331
+ 109340 string characters out of 5785387
+ 1866660 words of memory out of 5000000
+ 25659 multiletter control sequences out of 15000+600000
+ 539922 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,6n,80p,754b,350s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:
-/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei
-.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Font
-s/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/wind
-ows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc>
-<C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/sim
-hei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/F
+<C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun
+.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Font
+s/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/wind
+ows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf>
+<C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/sim
+sun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/F
 onts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/w
-indows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.t
-tc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/
-simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/window
-s/Fonts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C
+indows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simsun.t
+tc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/
+simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/window
+s/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C
 :/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsu
 n.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fon
 ts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/win
-dows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf
-><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/si
-mhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/
-Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><D:/Scoop/scoop/apps/latex/curren
-t/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Scoop/scoop/apps
-/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Sco
-op/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><D:/Scoop/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb><D:/Scoop/scoop/apps/latex/current/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><D:/Scoop/scoop/apps/latex/current/texmfs/install
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Scoop/scoop/apps/latex/current/te
-xmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Scoop/scoop/apps/latex
-/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/Scoop/scoop
-/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D
-:/Scoop/scoop/apps/latex/current/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmsy7.pfb><D:/Scoop/scoop/apps/latex/current/texmfs/install/fonts/type1/public/
-amsfonts/cm/cmtt10.pfb>
-Output written on test.pdf (2 pages, 333411 bytes).
+dows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc
+><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/si
+msun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/
+Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/
+windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.
+ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts
+/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windo
+ws/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><D:/Scoop/scoop/apps/miktex/cu
+rrent/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Scoop/scoop/
+apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D
+:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/publ
+ic/amsfonts/cm/cmmi5.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Scoop/scoop/apps/miktex/current/texmf
+s/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Scoop/scoop/apps/miktex/
+current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Scoop/scoop
+/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:
+/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmr7.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmr9.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/i
+nstall/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/Scoop/scoop/apps/miktex/cur
+rent/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Scoop/scoop/ap
+ps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on test.pdf (4 pages, 427691 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
+ 362 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

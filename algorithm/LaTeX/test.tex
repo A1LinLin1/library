@@ -11,25 +11,72 @@
     \lipsum[2]
 \end{abstract}
 \tableofcontents
-\section{Mille-Rabin方法}
-\subsection{费马小定理}
-当$p$为素数时，对于任意整数$a$，有$a^p\equiv a\pmod p$。
-即$a^{p-1}\equiv 1\pmod p$。
-\subsubsection{算法描述}
-\begin{enumerate}
-    \item 选取一个整数$a$，使得$1<a<n$。
-    \item 计算$a^{n-1}\pmod n$。
-    \item 若$a^{n-1}\not\equiv 1\pmod n$，则$n$为合数；否则，$n$可能为素数。
-    \item 重复步骤1-3，$k$次后，若$n$为合数，则$n$为合数；否则，$n$可能为素数。
-\end{enumerate}
-\subsubsection{证明}
-\begin{enumerate}
-    \item 若$n$为素数，由费马小定理可知，$a^{n-1}\equiv 1\pmod n$。
-    \item 若$n$为合数，由费马小定理可知，$a^{n-1}\equiv 1\pmod n$。
+\section{Fermat's Little Theorem}
+当$p$为素数时，对于任意整数$a$，有$a^p\equiv a\pmod p$。即$a^{p-1}\equiv1\pmod p$。
+\section{伪素数}
+\subsection{Carmichael伪素数}
+由Fermat's Little Theorem可知，若对于任意整数$a$，有$a^p\equiv a\pmod p$，则$p$可能为素数。但是，若$p$为合数，仍有可能满足$a^p\equiv a\pmod p$。此时，$p$被称为Carmichael伪素数。
 
+\subsubsection{Fermat素数检测}
+\begin{enumerate}
+    \item 给定奇整数$n\geq3$和安全参数$t$。
+    \item 随机选取整数$b$,$(b,n)=1,2\leq b\leq n-2$.
+    \item 计算$r=b^{n-1}\pmod n$。
+    \item 若$r\neq1$，则$n$为合数。
+    \item 若$r=1$，则$n$可能为素数，重复步骤2-4，共重复$t$次。
 \end{enumerate}
 \subsection{算法实现}
-\subsubsection{python实现}
+\begin{verbatim}
+    def fermat(n, k):
+        if n == 2:
+            return True
+        if n % 2 == 0:
+            return False
+        for i in range(k):
+            a = random.randint(2, n - 2)
+            if pow(a, n - 1, n) != 1:
+                return False
+        return True
+\end{verbatim}
+\subsubsection{平方因子检测}
+设$n$为一个有平方因子的整数，则存在整数$a$，使得$a^2\equiv1\pmod n$，且$a\not\equiv\pm1\pmod n$。此时，$n$被称为Carmichael数。
+\subsection{Euler伪素数}
+设$n$是一个正奇合数，设整数$b$与$n$互素，若$b^{\frac{n-1}{2}}\equiv\pm1\pmod n$，则$n$被称为Euler伪素数。
+\subsubsection{Solovary-Strassen素数检测}
+\begin{enumerate}
+    \item 给定奇整数$n\geq3$和安全参数$t$。
+    \item 随机选取整数$b$,$(b,n)=1,2\leq b\leq n-2$.
+    \item 计算$r=b^{\frac{n-1}{2}}\pmod n$。
+    \item 若$r\not\equiv\pm1\pmod n$，则$n$为合数。
+    \item 计算Jacobi符号$(\frac{b}{n})$。
+    \item 如果$r\not=s $，则$n$为合数。
+    \item 若$r\equiv\pm1\pmod n$，则$n$可能为素数，重复步骤2-4，共重复$t$次。
+\end{enumerate}
+\subsubsection{算法实现}
+\begin{verbatim}
+    def solovay_strassen(n, k):
+        if n == 2:
+            return True
+        if n % 2 == 0:
+            return False
+        for i in range(k):
+            a = random.randint(2, n - 2)
+            if pow(a, (n - 1) // 2, n) != jacobi(a, n) % n:
+                return False
+        return True
+\end{verbatim}
+\section{强伪素数}
+设一个奇合数$n$,且有表达式$n-1=2^sd$，其中$d$为奇数。若对于任意整数$a$，有$$a^d\equiv1\pmod n$$或$$a^{2^rd}\equiv-1\pmod n$$，则$n$被称为强伪素数。
+\subsection{Miller-Rabin素数检测}
+\begin{enumerate}
+    \item 给定奇整数$n\geq3$和安全参数$t$。
+    \item 随机选取整数$b$,$(b,n)=1,2\leq b\leq n-2$.
+    \item 计算$r=b^{n-1}\pmod n$。
+    \item 若$r\neq1$，则$n$为合数。
+    \item 若$r=1$，则$n$可能为素数，重复步骤2-4，共重复$t$次。
+\end{enumerate}
+\subsection{算法实现}
+\subsection{python实现}
 \begin{verbatim}
     def miller_rabin(n, k):
         if n == 2:
