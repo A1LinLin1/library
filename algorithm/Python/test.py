@@ -1,6 +1,8 @@
-import cmath
-import math
+from Crypto.Util.number import *
 
-m=-1
-n=cmath.sqrt(m)
-print(n) 
+
+    
+a=bytes_to_long(b'hello')
+print(a)
+print(long_to_bytes(a))
+print(long_to_bytes(a).decode('utf-8'))

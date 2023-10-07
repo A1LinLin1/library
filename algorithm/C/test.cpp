@@ -7,13 +7,12 @@
 using namespace std;
 typedef long long ll;
 int main(){
-  ll a,b;
-  for(a=1;a*a<=1000000000;a++){
-    b=sqrt(1000000000-a*a);
-    if(floor(b)==b){
-      printf("%lld %lld\n",a,b);
-    }
+  char s[100]="gmbh|D1ohsbuv2bu21ot1oQb332ohUifG2stuQ[HBMBYZ2fwf2~";
+  int len=strlen(s);
+  for(int i=0;i<len;i++){
+    s[i]=s[i]-1;
   }
+  printf("%s\n",s);
   return 0;
 }
 
