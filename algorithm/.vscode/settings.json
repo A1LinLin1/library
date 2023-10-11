@@ -6,6 +6,7 @@
     "python.analysis.typeCheckingMode": "basic",
     "files.associations": {
         "*.py": "python",
-        "cstdio": "cpp"
+        "cstdio": "cpp",
+        "DS_01_02.C": "cpp"
     }
 }

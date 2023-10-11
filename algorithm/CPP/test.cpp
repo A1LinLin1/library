@@ -1,21 +1,41 @@
 #include<iostream>
 #include<cstdio>
+#include<stdio.h>
 #include<cstring>
 #include<math.h>
 #include<stdlib.h>
 #include<algorithm>
+#define up(l,r,i) for(int i=l,END##i=r;i<=END##i;++i)
+#define dn(r,l,i) for(int i=r,END##i=l;i>=END##i;--i)
 using namespace std;
-typedef long long ll;
+typedef long long i64;
+const int INF =2147483647;
+const int MAXN=1e5+3;
+int n,t,H[MAXN],F[MAXN];
 int main(){
-  char s[100]="gmbh|D1ohsbuv2bu21ot1oQb332ohUifG2stuQ[HBMBYZ2fwf2~";
-  int len=strlen(s);
-  for(int i=0;i<len;i++){
-    s[i]=s[i]-1;
-  }
-  printf("%s\n",s);
-  return 0;
+    while(~scanf("%d",&H[++n])); --n;
+    t=0,memset(F,0,sizeof(F)),F[0]=INF;
+    up(1,n,i){
+        int l=0,r=t+1; while(r-l>1){
+            int m=l+(r-l)/2;
+            if(F[m]>=H[i]) l=m; else r=m;
+        }
+        int x=l+1;  // dp[i]
+        if(x>t) t=x; F[x]=H[i];
+    }
+    printf("%d\n",t);
+    t=0,memset(F,0,sizeof(F)),F[0]=0;
+    up(1,n,i){
+        int l=0,r=t+1; while(r-l>1){
+            int m=l+(r-l)/2;
+            if(F[m]<H[i]) l=m; else r=m;
+        }
+        int x=l+1;
+        if(x>t) t=x; F[x]=H[i];
+    }
+    printf("%d\n",t);
+    return 0;
 }
-
 
 
 

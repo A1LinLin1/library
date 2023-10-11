@@ -1,108 +1,42 @@
 \documentclass[a4paper]{article}
 \usepackage[margin=1in]{geometry} % 设置边距，符合Word设定
 \usepackage{ctex}
-\usepackage{lipsum}
-\title{\heiti\zihao{3} Report One}
+% Keywords command
+\providecommand{\keywords}[1]
+{
+    \small	
+    \textbf{关键词:} #1
+}
+
+% Keywords command
+\providecommand{\keywords}[1]
+{
+  \small	
+  % \textbf{\textit{Keywords---}} #1
+  \textbf{关键词:} #1
+}
+\title{\heiti\zihao{3} 椭圆曲线公钥密码算法的数学原理分析}
+\date{班级:2022211805 学号:2022211576}
 \author{\songti 崔航}
-\date{2023.09.30}
 \begin{document}
     \maketitle
 \begin{abstract}
-    \lipsum[2]
+
 \end{abstract}
+\keywords{素数检测，伪素数，强伪素数}
 \tableofcontents
-\section{Fermat's Little Theorem}
-当$p$为素数时，对于任意整数$a$，有$a^p\equiv a\pmod p$。即$a^{p-1}\equiv1\pmod p$。
-\section{伪素数}
-\subsection{Carmichael伪素数}
-由Fermat's Little Theorem可知，若对于任意整数$a$，有$a^p\equiv a\pmod p$，则$p$可能为素数。但是，若$p$为合数，仍有可能满足$a^p\equiv a\pmod p$。此时，$p$被称为Carmichael伪素数。
+\section{Fermat小定理}
 
-\subsubsection{Fermat素数检测}
-\begin{enumerate}
-    \item 给定奇整数$n\geq3$和安全参数$t$。
-    \item 随机选取整数$b$,$(b,n)=1,2\leq b\leq n-2$.
-    \item 计算$r=b^{n-1}\pmod n$。
-    \item 若$r\neq1$，则$n$为合数。
-    \item 若$r=1$，则$n$可能为素数，重复步骤2-4，共重复$t$次。
-\end{enumerate}
-\subsection{算法实现}
-\begin{verbatim}
-    def fermat(n, k):
-        if n == 2:
-            return True
-        if n % 2 == 0:
-            return False
-        for i in range(k):
-            a = random.randint(2, n - 2)
-            if pow(a, n - 1, n) != 1:
-                return False
-        return True
-\end{verbatim}
-\subsubsection{平方因子检测}
-设$n$为一个有平方因子的整数，则存在整数$a$，使得$a^2\equiv1\pmod n$，且$a\not\equiv\pm1\pmod n$。此时，$n$被称为Carmichael数。
-\subsection{Euler伪素数}
-设$n$是一个正奇合数，设整数$b$与$n$互素，若$b^{\frac{n-1}{2}}\equiv\pm1\pmod n$，则$n$被称为Euler伪素数。
-\subsubsection{Solovary-Strassen素数检测}
-\begin{enumerate}
-    \item 给定奇整数$n\geq3$和安全参数$t$。
-    \item 随机选取整数$b$,$(b,n)=1,2\leq b\leq n-2$.
-    \item 计算$r=b^{\frac{n-1}{2}}\pmod n$。
-    \item 若$r\not\equiv\pm1\pmod n$，则$n$为合数。
-    \item 计算Jacobi符号$(\frac{b}{n})$。
-    \item 如果$r\not=s $，则$n$为合数。
-    \item 若$r\equiv\pm1\pmod n$，则$n$可能为素数，重复步骤2-4，共重复$t$次。
-\end{enumerate}
-\subsubsection{算法实现}
-\begin{verbatim}
-    def solovay_strassen(n, k):
-        if n == 2:
-            return True
-        if n % 2 == 0:
-            return False
-        for i in range(k):
-            a = random.randint(2, n - 2)
-            if pow(a, (n - 1) // 2, n) != jacobi(a, n) % n:
-                return False
-        return True
-\end{verbatim}
-\section{强伪素数}
-设一个奇合数$n$,且有表达式$n-1=2^sd$，其中$d$为奇数。若对于任意整数$a$，有$$a^d\equiv1\pmod n$$或$$a^{2^rd}\equiv-1\pmod n$$，则$n$被称为强伪素数。
-\subsection{Miller-Rabin素数检测}
-\begin{enumerate}
-    \item 给定奇整数$n\geq3$和安全参数$t$。
-    \item 随机选取整数$b$,$(b,n)=1,2\leq b\leq n-2$.
-    \item 计算$r=b^{n-1}\pmod n$。
-    \item 若$r\neq1$，则$n$为合数。
-    \item 若$r=1$，则$n$可能为素数，重复步骤2-4，共重复$t$次。
-\end{enumerate}
-\subsection{算法实现}
-\subsection{python实现}
-\begin{verbatim}
-    def miller_rabin(n, k):
-        if n == 2:
-            return True
-        if n % 2 == 0:
-            return False
-        s = 0
-        d = n - 1
-        while d % 2 == 0:
-            s += 1
-            d //= 2
-        for i in range(k):
-            a = random.randint(2, n - 1)
-            x = pow(a, d, n)
-            if x == 1 or x == n - 1:
-                continue
-            for j in range(s - 1):
-                x = pow(x, 2, n)
-                if x == 1:
-                    return False
-                if x == n - 1:
-                    break
-            else:
-                return False
-        return True
-\end{verbatim}
-\section{}
-
+\section{总结}
+本文介绍了几种素数检测方法，分别是Fermat素数检测，Solovay-Strassen素数检测和Miller-Rabin素数检测。
+并对这几种方法进行了代码实现.除了这些实用的素数概率性检测，还有一些更加复杂的素数检测方法，如AKS素数检测，Lenstra素数检测等，安全性和实用性不高，本文不再赘述。
+\begin{thebibliography}{1000}  
+    
+    \bibitem{ref1}刘学军,邢玲玲,林和平,粟浩然.Miller-Rabin素数检测优化算法研究与实现[J].信息技术,2008,32(12):
+    \\141-143+147.
+    \bibitem{ref2}魏成行. 素性检测算法研究及其在现代密码学中的应用[D].山东大学,2010.
+    \bibitem{ref3}彭韬,陈文庆.基于VB的大素数Solovay-Strassen检测的设计与实现[J].电子技术与软件工程,2020,(10):
+    \\161-162.
+    \bibitem{ref4}陈恭亮.信息安全数学基础[M].清华大学出版社,2004.
+\end{thebibliography}
 \end{document}
