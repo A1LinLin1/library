@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9 Portable) (preloaded format=pdflatex 2023.10.5)  8 OCT 2023 20:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9 Portable) (preloaded format=pdflatex 2023.10.5)  29 OCT 2023 12:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -418,49 +418,44 @@ L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5102 strings out of 475248
- 99340 string characters out of 5755435
- 1933801 words of memory out of 5000000
- 26396 multiletter control sequences out of 15000+600000
- 588895 words of font info for 145 fonts, out of 8000000 for 9000
+ 4982 strings out of 475248
+ 97325 string characters out of 5755435
+ 1927801 words of memory out of 5000000
+ 26306 multiletter control sequences out of 15000+600000
+ 584575 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,6n,83p,764b,350s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/s
+<C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/s
 imsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows
 /Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:
 /windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun
-.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:/windows/Font
-s/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/wind
+.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Font
+s/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/wind
 ows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc>
 <C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/sim
-sun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/F
-onts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/w
+sun.ttc><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/F
+onts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/w
 indows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.t
 tc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/
-simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/window
-s/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C
-:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsu
-n.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fon
-ts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/win
+simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/window
+s/Fonts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C
+:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsu
+n.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:/windows/Fon
+ts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/win
 dows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf
-><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/si
-msun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/
-Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:/
-windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.
-ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts
-/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windo
-ws/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><
-C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simh
-ei.ttf><C:/windows/Fonts/simhei.ttf><D:/Scoop/scoop/apps/miktex/current/texmfs/
-install/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Scoop/scoop/apps/miktex/c
-urrent/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/Scoop/scoop/
-apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:
-/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public
-/amsfonts/cm/cmr9.pfb>
-Output written on test.pdf (1 page, 372431 bytes).
+><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/si
+mhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/
+Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/
+windows/Fonts/simhei.ttf><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Scoop/scoop/apps/miktex/current/texm
+fs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/Scoop/scoop/apps/miktex
+/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Scoop/scoo
+p/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmr9.pfb>
+Output written on test.pdf (1 page, 280193 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
+ 304 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
