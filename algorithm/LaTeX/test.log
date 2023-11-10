@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9 Portable) (preloaded format=pdflatex 2023.10.5)  29 OCT 2023 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9 Portable) (preloaded format=pdflatex 2023.10.5)  8 NOV 2023 12:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,9 +399,82 @@ File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
 quanjiao) on input line 26.
 
-(test.toc)
+(test.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.03374> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
 \tf@toc=\write3
 \openout3 = `test.toc'.
+
+
+
+d:/VScode/git/library/library/algorithm/LaTeX/test.tex:34: LaTeX Error: Lonely 
+\item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \item �
+            ��闭性：对于任意的$a,b\in G$，$a+b\in G$。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+d:/VScode/git/library/library/algorithm/LaTeX/test.tex:35: LaTeX Error: Lonely 
+\item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \item �
+            ��合律：对于任意的$a,b,c\in G$，$(a+b)+c=a+(b+c)$。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+d:/VScode/git/library/library/algorithm/LaTeX/test.tex:36: LaTeX Error: Lonely 
+\item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \item �
+            ��位元：存在一个元素$0\in G$，使得对于任意的$a\...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+d:/VScode/git/library/library/algorithm/LaTeX/test.tex:37: LaTeX Error: Lonely 
+\item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \item �
+            ��元：对于任意的$a\in G$，存在一个元素$-a\in G$，...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+d:/VScode/git/library/library/algorithm/LaTeX/test.tex:38: LaTeX Error: Lonely 
+\item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \item �
+            ��换律：对于任意的$a,b\in G$，$a+b=b+a$。
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/generic/ctex/zhmap\ctex-
@@ -411,18 +484,18 @@ TeX and DVIPDFMx (CTEX)
 {D:/Scoop/scoop/apps/miktex/current/texmfs/data/fonts/map/pdftex/pdftex.map}{UG
 BK.sfd}{Unicode.sfd}) [1
 
-] (test.aux)
+] [2] (test.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4982 strings out of 475248
- 97325 string characters out of 5755435
- 1927801 words of memory out of 5000000
- 26306 multiletter control sequences out of 15000+600000
- 584575 words of font info for 129 fonts, out of 8000000 for 9000
+ 5098 strings out of 475248
+ 99218 string characters out of 5755435
+ 1938801 words of memory out of 5000000
+ 26385 multiletter control sequences out of 15000+600000
+ 590355 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,6n,83p,764b,350s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/s
@@ -433,29 +506,37 @@ imsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows
 s/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/wind
 ows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc>
 <C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/sim
-sun.ttc><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/F
-onts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/w
+sun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/F
+onts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/w
 indows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.t
 tc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/
-simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/window
-s/Fonts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C
-:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsu
-n.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:/windows/Fon
-ts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/win
-dows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf
+simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/window
+s/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C
+:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhe
+i.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fon
+ts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/win
+dows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc
 ><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/si
-mhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/
-Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/
-windows/Fonts/simhei.ttf><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fon
-ts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Scoop/scoop/apps/miktex/current/texm
-fs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/Scoop/scoop/apps/miktex
-/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Scoop/scoo
-p/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/c
-m/cmr9.pfb>
-Output written on test.pdf (1 page, 280193 bytes).
+mhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/
+Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/
+windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.
+ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts
+/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windo
+ws/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><
+C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simh
+ei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fo
+nts/simhei.ttf><C:/windows/Fonts/simhei.ttf><D:/Scoop/scoop/apps/miktex/current
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Scoop/scoop/apps/
+miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/Scoo
+p/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi9
+.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmr10.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/Scoop/scoop/apps/miktex/current/
+texmfs/install/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on test.pdf (2 pages, 383739 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
+ 395 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
