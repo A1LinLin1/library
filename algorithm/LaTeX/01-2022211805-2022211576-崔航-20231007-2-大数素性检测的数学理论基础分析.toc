@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Fermat小定理}{1}{}%
+\contentsline {section}{\numberline {2}伪素数}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Carmichael伪素数}{1}{}%
+\contentsline {subsection}{\numberline {2.2}Fermat素数检测}{2}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}算法实现}{2}{}%
+\contentsline {subsection}{\numberline {2.3}平方因子检测}{2}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}算法实现}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Euler伪素数}{2}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Solovary-Strassen素数检测}{2}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}算法实现}{3}{}%
+\contentsline {section}{\numberline {3}强伪素数}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Miller-Rabin素数检测}{3}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}算法实现}{3}{}%
+\contentsline {section}{\numberline {4}总结}{4}{}%
