@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10 Portable) (preloaded format=pdflatex 2023.11.19)  26 NOV 2023 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10 Portable) (preloaded format=pdflatex 2023.11.19)  26 NOV 2023 11:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/VScode/git/library/library/algorithm/LaTeX/CET-8/CET-8_01/CET-8_01.tex
-(d:/VScode/git/library/library/algorithm/LaTeX/CET-8/CET-8_01/CET-8_01.tex
+**d:/VScode/git/library/library/algorithm/LaTeX/CET-8/CET-8_02/CET-8_02.tex
+(d:/VScode/git/library/library/algorithm/LaTeX/CET-8/CET-8_02/CET-8_02.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/base\article.cls
@@ -285,8 +285,8 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/latex/cjk/UTF8\UTF8.ch
 r
 File: UTF8.chr 2021/10/16 4.8.5
-) (CET-8_01.aux)
-\openout1 = `CET-8_01.aux'.
+) (CET-8_02.aux)
+\openout1 = `CET-8_02.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
@@ -452,7 +452,7 @@ File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
 quanjiao) on input line 24.
 
-(CET-8_01.toc
+(CET-8_02.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.53937> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -461,7 +461,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
 )
 \tf@toc=\write3
-\openout3 = `CET-8_01.toc'.
+\openout3 = `CET-8_02.toc'.
 
 
 (D:\Scoop\scoop\apps\miktex\current\texmfs\install\tex/generic/ctex/zhmap\ctex-
@@ -471,29 +471,29 @@ TeX and DVIPDFMx (CTEX)
 {D:/Scoop/scoop/apps/miktex/current/texmfs/data/fonts/map/pdftex/pdftex.map}{UG
 BK.sfd}{Unicode.sfd}) [1
 
-] [2] (CET-8_01.aux)
+] [2] (CET-8_02.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5986 strings out of 475248
- 112984 string characters out of 5755434
- 1932785 words of memory out of 5000000
- 27254 multiletter control sequences out of 15000+600000
- 590124 words of font info for 149 fonts, out of 8000000 for 9000
+ 5994 strings out of 475248
+ 113108 string characters out of 5755434
+ 1931785 words of memory out of 5000000
+ 27256 multiletter control sequences out of 15000+600000
+ 590934 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,6n,83p,770b,366s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/s
 imsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows
-/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:
-/windows/Fonts/simsun.ttc> <D:\Scoop\scoop\apps\miktex\current\texmfs/data\font
-s/pk/ljfour/jknappen/ec/dpi632\tcrm1000.pk><C:/windows/Fonts/simhei.ttf><C:/win
-dows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf
-><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/si
-msun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/
-Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/
+/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:
+/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simsun
+.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Font
+s/simsun.ttc><C:/windows/Fonts/simsun.ttc> <D:\Scoop\scoop\apps\miktex\current\
+texmfs/data\fonts/pk/ljfour/jknappen/ec/dpi632\tcrm1000.pk><C:/windows/Fonts/si
+mhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/
+Fonts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/
 windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.
 ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts
 /simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windo
@@ -504,25 +504,26 @@ nts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:/wi
 ndows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.tt
 f><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/s
 imsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows
-/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:
-/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simsun
-.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Font
+/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:
+/windows/Fonts/simsun.ttc><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei
+.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simsun.ttc><C:/windows/Font
 s/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/wind
 ows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc>
-<C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/sim
-hei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><D:/Scoop/sco
-op/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Scoop/scoop/apps/miktex/current/t
-exmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Scoop/scoop/apps/mik
-tex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Scoop/sc
-oop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b>
-Output written on CET-8_01.pdf (2 pages, 395833 bytes).
+<C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/simsun.ttc><C:/windows/Fonts/sim
+hei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/F
+onts/simhei.ttf><C:/windows/Fonts/simhei.ttf><C:/windows/Fonts/simhei.ttf><D:/S
+coop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs/install/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><D:/Scoop/scoop/apps/miktex/current/texmfs
+/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Scoop/scoop/apps/miktex/c
+urrent/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Scoop/scoop/
+apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/
+Scoop/scoop/apps/miktex/current/texmfs/install/fonts/type1/public/amsfonts/cm/c
+msy10.pfb>
+Output written on CET-8_02.pdf (2 pages, 401720 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
+ 380 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -17,7 +17,7 @@
   % \textbf{\textit{Keywords---}} #1
   \textbf{关键词:} #1
 }
-\title{\heiti\zihao{3} TEC-8实验\_01\_运算器实验}
+\title{\heiti\zihao{3} TEC-8实验\_02\_双端口存储器实验}
 \date{班级:2022211805  学号:2022211576  姓名：崔航}
 % \author{\songti 崔航}
 \begin{document}
@@ -28,23 +28,23 @@
 % \end{abstract}
 % \keywords{群、椭圆曲线、ECC、加解密}
 \tableofcontents
+\newpage
+
 \section{实验目的}
 \begin{enumerate}
     
-    \item 熟悉逻辑测试笔的使用方法
-    \item 熟悉TEC-8模型计算机的节拍脉冲$T_1$、$T_2$、$T_3$；
-    \item 熟悉双端口通用寄存器组的读写操作；
-    \item 熟悉运算器的数据传送通路；
-    \item 验证74LS181运算器的加减等各种功能；
-    \item 按照表中提供的功能自行验证其中几种。
+    \item 了解双端口静态存储器IDT7132的工作特性及使用方法；
+    \item 了解半导体存储器怎样存储和读取数据；
+    \item 了解双端口双端口存储器怎样并行读写；
+    \item 熟悉TEC-8模型计算机存储器部分的数据通路。
     
 \end{enumerate}
 
 \section{实验内容}
-\subsection{微程序控制模式}
+\subsection{微程序控制器方式}
 \begin{itemize}
-    \item 用双踪示波器和逻辑测试笔测试节拍脉冲信号$T_1$、$T_2$、$T_3$。
-    \item 对数据进行加、减、与、或运算，观察运算结果。
+    \item 从存储器地址10H开始，通过左端口连续向双端口RAM中写入3个数：85H、60H、38H。在写的过程中，在右端口检测写的数据是否正确。
+    \item 从存储器地址10H开始，连续从双端口RAM的左端口和右端口同时读出存储器的内容。
 \end{itemize}
 \subsection{独立模式}
 \begin {itemize}

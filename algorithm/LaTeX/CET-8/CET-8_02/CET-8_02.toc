@@ -1,6 +1,6 @@
 \contentsline {section}{\numberline {1}实验目的}{2}{}%
 \contentsline {section}{\numberline {2}实验内容}{2}{}%
-\contentsline {subsection}{\numberline {2.1}微程序控制模式}{2}{}%
+\contentsline {subsection}{\numberline {2.1}微程序控制器方式}{2}{}%
 \contentsline {subsection}{\numberline {2.2}独立模式}{2}{}%
 \contentsline {section}{\numberline {3}实验过程}{2}{}%
 \contentsline {subsection}{\numberline {3.1}微程序控制模式}{2}{}%
